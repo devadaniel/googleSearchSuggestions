@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.suggestion-lit-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 0px;
+}
+.suggestion {
+  color: #64748b;
+  font-family: 'Roboto';
+  margin-right: 30px;
+}
+.arrow-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrow-image {
+  margin-top: 20px;
+  margin-right: 30px;
+  width: 20px;
+  height: 20px;
+}

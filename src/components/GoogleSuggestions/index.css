@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.suggestion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.google-image {
+  width: 300px;
+  height: 100px;
+}
+
+@media screen and(min-width: 768px) {
+  .google-image {
+    width: 160px;
+    height: 80px;
+  }
+}
+
+.suggestion-card-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px;
+}
+
+.search-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  margin-top: 2px;
+  width: 15px;
+  height: 16px;
+}
+
+.search-box {
+  margin-top: 0px;
+  margin-left: 10px;
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+}
